@@ -13,6 +13,12 @@ body{
     font-weight: 600;
 }
 
+a{
+    display: block;
+    color: #3F5D45;
+    text-decoration: none;
+}
+
 .text-sm{
     font-size: 16px;
 }
@@ -62,11 +68,6 @@ h1{
 
 .menu ul li:nth-last-child(1){
     margin-right: 79px;
-}
-
-.menu a{
-    color: #3F5D45;
-    text-decoration: none;
 }
 
 .cart{
@@ -206,7 +207,7 @@ h1{
     color: #EAF0ED;
 }
 
-.page{
+.page ul{
     display: flex;
     margin-top: 10px;
 }
@@ -219,17 +220,11 @@ h1{
     font-size: 20px;
     line-height: 60px;
     font-weight: 400;
-    text-decoration: none;
     text-align: center;
     border: 1px solid #EAF0ED;
 }
 
 .page-item:hover{
-    background-color: #EAF0ED;
-}
-
-.previous-item img,.next-item img{
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
+    background-color: #3F5D45;
+    color: #EAF0ED; 
 }
